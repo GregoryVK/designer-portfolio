@@ -14,13 +14,17 @@ layout: default
 		<div class="wrapper">
 			<h1>latest articles</h1>
 			<ul class="post-list">
+				{% for post in site.posts reversed | limit:4  %}
 				<li class="post">
-					<h2>post title</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae quod beatae repellat animi vitae fugit doloremque, molestiae fugiat aliquid sunt earum incidunt officia explicabo rem delectus quas necessitatibus qui nisi!</p>
+					<h2>{{ post.title }}</h2>
+					<p>
+						{{ post.content | strip_html | strip_newlines | truncate: 200 }}
+					</p>
 					<p class="post-read-more-link">
 						<a href="#">read more...</a>
 					</p>
 				</li>
+				{% endfor %}
 			</ul>
 		</div>
 

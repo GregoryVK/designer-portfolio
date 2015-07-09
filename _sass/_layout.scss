@@ -43,3 +43,31 @@
 	}
 
 }
+
+
+
+//sections
+
+.site-section {
+
+	@extend %clearfix;
+	padding-top: 1em;
+
+}
+
+.site-section-last {
+
+	padding-bottom: 1em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
