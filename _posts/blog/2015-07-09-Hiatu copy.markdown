@@ -3,7 +3,7 @@ layout: post
 title:  "Hiatu"
 date:   2015-07-09 20:22:54
 categories: blog
-tag: layout design
+tag: layout
 
 ---
 
