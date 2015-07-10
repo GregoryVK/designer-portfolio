@@ -8,7 +8,7 @@ url: "http://example.com" # the base hostname & protocol for your site
 
 twitter_username: GregoryVekemans
 github_username:  gregoryVK
-
+exclude: [node_modules, npm-debug.log, package.json]
 permalink: /:categories/:title
 
 links:
