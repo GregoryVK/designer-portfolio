@@ -12,6 +12,8 @@ github_username:  gregoryVK
 permalink: /:categories/:title
 
 links:
+  - title: about
+    url: /about
   - title: work
     url: /work
   - title: articles
