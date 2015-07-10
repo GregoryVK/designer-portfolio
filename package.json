@@ -1,0 +1,23 @@
+{
+  "name": "designer-portfolio",
+  "version": "1.0.0",
+  "description": "porfolio",
+  "main": "gulp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GregoryVK/designer-portfolio.git"
+  },
+  "author": "Gregory Vekemans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GregoryVK/designer-portfolio/issues"
+  },
+  "homepage": "https://github.com/GregoryVK/designer-portfolio",
+  "devDependencies": {
+    "gulp-minify-css": "^1.2.0",
+    "gulp-shell": "^0.4.2"
+  }
+}
