@@ -18,10 +18,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
+	  font-family: 'OratorStd';
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -84,11 +83,18 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
-    text-align: center;
+
+	font-weight: normal;
+  text-align: center;
+  letter-spacing: .1em;
+
 }
 
+p {
 
+	font-family: 'Open Sans', sans-serif;
+
+}
 
 /**
  * Links
@@ -103,8 +109,6 @@ a {
         text-decoration: underline;
     }
 }
-
-
 
 /**
  * Blockquotes
@@ -122,11 +126,10 @@ blockquote {
     }
 }
 
-
-
 /**
  * Code formatting
  */
+
 pre,
 code {
     font-size: 15px;
@@ -149,11 +152,6 @@ pre {
         padding-left: 0;
     }
 }
-
-
-
-
-
 
 /**
  * Clearfix

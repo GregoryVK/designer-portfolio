@@ -5,10 +5,10 @@
 @charset "utf-8";
 
 @import
+        "mixins",
 				"vars",
         "base",
         "layout",
-        "mixins",
         "typography",
         "components/post",
         "components/project"

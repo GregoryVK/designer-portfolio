@@ -4,22 +4,26 @@ layout: default
 
 <div class="home">
 
+	<section class="site section site-section-introduction">
+
+	</section>
+
 	<!-- featured post -->
 	<section class="site-section site-section-last">
 
 		<div class="wrapper">
-			<h1>featured article</h1>
-			{% assign count = 0 %}
-				{% for post in site.categories['blog'] reversed %}
-					{% if post.featured == true and count < 1 %}
-						<div class="post post-featured">
+			<h1>about me</h1>
+			<img class="underline" src="assets/line.svg" width="100" alt="">
+			<img class="profilepic" src="assets/profiel@2x.png" height="145" width="147" alt="">
 
-							{% include post.html %}
+			<p>
 
-						</div>
-						{% assign count = count | plus:1 %}
-					{% endif %}
-				{% endfor %}
+				Hello, my name is <span>Gregory</span>. I'm a 23 year old web enthousiast living in Belgium.</br>
+				I develop web applications from the ground up. I'm a <span>front end developer</span></br>
+				and <span>graphic designer</span>. I also love to make <span>motion graphics</span>.
+
+			</p>
+
 		</div>
 
 	</section>
@@ -28,8 +32,11 @@ layout: default
 
 	<section class="site-section">
 
-		<h1>projects</h1>
+		<h1>latest projects</h1>
+		<img class="underline" src="assets/line.svg" width="100" alt="">
+
 		<ul class="project-list">
+
 			{% for project in site.categories['project'] reversed | limit:3  %}
 
 				{% include project.html %}
@@ -40,15 +47,23 @@ layout: default
 
 	</section>
 
+	<section class="site-section">
+
+		<h1>my skills</h1>
+		<img class="underline" src="assets/line.svg" width="100" alt="">
+
+	</section>
 
 	<!-- latest articles -->
 
 	<section class="site-section site-section-last">
 
 		<div class="wrapper">
-			<h1>latest articles</h1>
+			<h1>featured articles</h1>
+			<img class="underline" src="assets/line.svg" width="100" alt="">
+
 			<ul class="post-list">
-				{% for post in site.categories['blog'] reversed | limit:4  %}
+				{% for post in site.categories['blog'] reversed | limit:2  %}
 				<li class="post">
 
 					{% include post.html %}

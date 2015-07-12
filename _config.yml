@@ -13,11 +13,11 @@ permalink: /:categories/:title
 
 links:
 
-  - title: about
-    url: /about
-  - title: work
+  - title: home
+    url: /index
+  - title: projects
     url: /work
-  - title: articles
+  - title: blog
     url: /articles
 
 # Build settings
