@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hiatu"
+title:  "hiatu"
 date:   2015-07-09 20:22:54
 categories: blog
 tag: inspiration
