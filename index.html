@@ -11,7 +11,9 @@ layout: default
 			gregory vekemans
 		</h3>
 
-		<p>designer & developer</p>
+		<img src="assets/introscreen.png" height="225" width="670" alt="">
+
+		<p>designer &amp; developer</p>
 
 	</section>
 
@@ -35,7 +37,7 @@ layout: default
 
 	</section>
 
-	<div class="hr"><hr /></div>
+	<div class="hr"><hr/></div>
 
 	<!-- featured projects -->
 
@@ -44,7 +46,9 @@ layout: default
 		<h1>latest projects</h1>
 		<img class="underline" src="assets/line.svg" width="100" alt="">
 
-		<ul class="project-list">
+		<div class="wraper-project">
+
+		<ul class="rig columns-3 columns-2">
 
 			{% for project in site.categories['project'] reversed | limit:3  %}
 
@@ -54,20 +58,68 @@ layout: default
 
 		</ul>
 
+		</div>
 		<a id="projectall"></a>
 
 	</section>
 
-	<div class="hr"><hr /></div>
+	<div class="hr"><hr/></div>
 
 	<section class="site-section">
 
-		<h1>my skills</h1>
-		<img class="underline" src="assets/line.svg" width="100" alt="">
+		<header class="post-header">
+			<h1>my skills</h1>
+			<img class="underline" src="assets/line.svg" width="100" alt="">
+
+		</header>
+
+		<div class="wraper">
+			<div class="skillst7">
+				<div class="skillbar" data-percent="65%">
+					<div class="count-bar color-1">
+						<div class="title">HTML5 / css (sass)</div>
+					</div>
+				</div>
+				<div class="skillbar" data-percent="79%">
+					<div class="count-bar color-2">
+						<div class="title">javascript (jquery)</div>
+					</div>
+				</div>
+				<div class="skillbar" data-percent="95%">
+					<div class="count-bar color-3">
+						<div class="title">affinity designer (illustrator)</div>
+					</div>
+				</div>
+				<div class="skillbar" data-percent="70%">
+					<div class="count-bar color-5">
+						<div class="title">photoshop</div>
+					</div>
+				</div>
+				<div class="skillbar" data-percent="65%">
+					<div class="count-bar color-1">
+						<div class="title">after effects</div>
+					</div>
+				</div>
+				<div class="skillbar" data-percent="79%">
+					<div class="count-bar color-2">
+						<div class="title">php</div>
+					</div>
+				</div>
+				<div class="skillbar" data-percent="95%">
+					<div class="count-bar color-3">
+						<div class="title">backbone</div>
+					</div>
+				</div>
+			</div>
+
+			<p class="skillsother">I also have experience with: swift, git, angular, jekyll, arduino, node.js, leap motion, gulp</p>
+
+		</div>
+
 
 	</section>
 
-	<div class="hr"><hr /></div>
+	<div class="hr"><hr/></div>
 
 	<!-- latest articles -->
 
@@ -88,7 +140,6 @@ layout: default
 			</ul>
 
 		<a id="articlesall"></a>
-
 
 		</div>
 

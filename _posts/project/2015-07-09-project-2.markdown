@@ -3,7 +3,7 @@ layout: post
 title:  "Hiatu"
 date:   2015-07-09 20:22:54
 categories: project
-featured_image: "/assets/project.png"
+featured_image: "/assets/thumb/lg_ing.jpg"
 tag: inspiration
 
 ---
