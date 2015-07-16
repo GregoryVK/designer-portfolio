@@ -4,15 +4,20 @@ title: all projects
 permalink: /work/
 ---
 
-<div class="site-section site-section-last">
+<div class="site-section site-section-last test">
+
 	<header class="post-header">
-		<h1>{{ page.title }}</h1>
+		<h2>{{ page.title }}</h2>
 	</header>
 
-	<ul class="project-list">
+	<div class="wraper-project">
+
+	<ul class="rig columns-3 columns-2">
 		{% for project in site.categories['project'] %}
 			{% include project.html %}
 			{% endfor %}
 	</ul>
+
+	</div>
 
 </div>
