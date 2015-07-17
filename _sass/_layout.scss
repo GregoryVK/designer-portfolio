@@ -179,8 +179,31 @@ hr {
 	cursor: pointer;
 	background: url("../assets/button1.svg") center center no-repeat;
 	height: 65px;
+	max-width: 260px;
 	margin-bottom: 60px;
+}
 
+#projectall:hover{
+
+	animation: bounce ease 1s;
+
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
 }
 
 #articlesall {
@@ -192,6 +215,12 @@ hr {
 	height: 60px;
 	margin-bottom: 60px;
 
+}
+
+#articlesall:hover {
+	
+	animation: bounce 1s;	
+	
 }
 
 #email {
